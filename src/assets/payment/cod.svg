@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="52.98" height="32.007" viewBox="0 0 52.98 32.007">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_7676" data-name="Rectangle 7676" width="52.98" height="32.007" rx="4" transform="translate(0)" fill="#fff" stroke="rgba(112,112,112,0.28)" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_19129" data-name="Mask Group 19129" clip-path="url(#clip-path)">
+    <g id="Group_19182" data-name="Group 19182" transform="translate(22.584 7.037)">
+      <text id="Cash_On" data-name="Cash On" transform="translate(0 7)" fill="#515461" font-size="7.5" font-family="Montserrat-SemiBold, Montserrat" font-weight="600" letter-spacing="-0.045em"><tspan x="0" y="0">Cash On</tspan></text>
+      <text id="Delivery" transform="translate(0 15.967)" fill="#515461" font-size="7.5" font-family="Montserrat-SemiBold, Montserrat" font-weight="600" letter-spacing="-0.045em"><tspan x="0" y="0">Delivery</tspan></text>
+    </g>
+    <g id="vuesax_outline_empty-wallet" data-name="vuesax/outline/empty-wallet" transform="translate(-237.477 -181.75)">
+      <g id="empty-wallet" transform="translate(236 188)">
+        <path id="Vector" d="M13.325,13.125H3.758A3.759,3.759,0,0,1,0,9.367V3.758A3.759,3.759,0,0,1,3.758,0h9.567a3.759,3.759,0,0,1,3.758,3.758v1.2a.63.63,0,0,1-.625.625H14.775a1.025,1.025,0,0,0-.75.308l-.008.008a1.052,1.052,0,0,0-.317.85,1.161,1.161,0,0,0,1.175.992h1.583a.63.63,0,0,1,.625.625v.992A3.761,3.761,0,0,1,13.325,13.125ZM3.758,1.25A2.511,2.511,0,0,0,1.25,3.758V9.367a2.511,2.511,0,0,0,2.508,2.508h9.567a2.511,2.511,0,0,0,2.508-2.508V9h-.958A2.4,2.4,0,0,1,12.45,6.867a2.346,2.346,0,0,1,2.325-2.533h1.058V3.758A2.511,2.511,0,0,0,13.325,1.25Z" transform="translate(1.458 5.833)" fill="#515461"/>
+        <path id="Vector-2" data-name="Vector" d="M.625,9.886A.63.63,0,0,1,0,9.261V5.453A3.024,3.024,0,0,1,1.942,2.644L8.558.144a2.182,2.182,0,0,1,2.033.25,2.2,2.2,0,0,1,.95,1.817V5.378a.625.625,0,1,1-1.25,0V2.211a.951.951,0,0,0-.417-.792.931.931,0,0,0-.883-.108l-6.617,2.5A1.77,1.77,0,0,0,1.242,5.453V9.261A.612.612,0,0,1,.625,9.886Z" transform="translate(1.458 1.081)" fill="#515461"/>
+        <path id="Vector-3" data-name="Vector" d="M2.436,4.667A2.4,2.4,0,0,1,.011,2.533,2.287,2.287,0,0,1,.694.675,2.273,2.273,0,0,1,2.327,0H4.061A1.479,1.479,0,0,1,5.519,1.475V3.192A1.475,1.475,0,0,1,4.086,4.667ZM4.044,1.25H2.336a1.025,1.025,0,0,0-.75.308,1.049,1.049,0,0,0-.325.867,1.161,1.161,0,0,0,1.175.992H4.069a.221.221,0,0,0,.208-.225V1.475A.231.231,0,0,0,4.044,1.25Z" transform="translate(13.898 10.167)" fill="#515461"/>
+        <path id="Vector-4" data-name="Vector" d="M6.458,1.25H.625A.63.63,0,0,1,0,.625.63.63,0,0,1,.625,0H6.458a.63.63,0,0,1,.625.625A.63.63,0,0,1,6.458,1.25Z" transform="translate(5.208 9.375)" fill="#515461"/>
+        <path id="Vector-5" data-name="Vector" d="M0,0H20V20H0Z" fill="none" opacity="0"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,139 @@
+.sizechart__container {
+    margin-top: 30px;
+    box-sizing: border-box;
+    width: auto;
+}
+
+
+/* .sizechart__unit p {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    color: #888888;
+} */
+
+.sizechart__container h5,
+.sizechart__container p {
+    text-align: center;
+}
+
+
+.sizechart__unit {
+    display: flex;
+    align-items: center;
+    /* Vertically align content in the center */
+    justify-content: center;
+    /* Horizontally align content in the center */
+    margin: 10px 0;
+    gap: 5px;
+    /* To give a little spacing between the button and separator */
+}
+
+.sizechart__unit div {
+    cursor: pointer;
+    /* To indicate it's clickable */
+    padding: 5px 10px;
+    /* To give some space around the text */
+    border: none;
+    /* To make it borderless */
+    background-color: transparent;
+    /* To remove any background */
+    color: grey;
+    /* Default color */
+}
+
+.sizechart__unit div.active {
+    color: blue;
+    /* Active color */
+}
+
+.sizechart__unit div:not(.active):hover {
+    color: lightgrey;
+    /* Hover color for non-active button, can be removed if not needed */
+}
+
+
+.sizechart__unit {
+    display: flex;
+    align-items: center;
+    /* Vertically align content in the center */
+    justify-content: center;
+    /* Horizontally align content in the center */
+    margin: 10px 0;
+    gap: 5px;
+    /* To give a little spacing between the button and separator */
+}
+
+.sizechart__unit div {
+    cursor: pointer;
+    /* To indicate it's clickable */
+    padding: 5px 10px;
+    /* To give some space around the text */
+    border: none;
+    /* To make it borderless */
+    background-color: transparent;
+    /* To remove any background */
+    color: grey;
+    /* Default color */
+}
+
+.sizechart__unit div.active {
+    color: blue;
+    /* Active color */
+}
+
+.sizechart__unit div:not(.active):hover {
+    color: lightgrey;
+    /* Hover color for non-active button, can be removed if not needed */
+}
+
+.sizechart__unit .separator {
+    padding: 0;
+    /* Remove padding for separator */
+}
+
+.sizechart__unit .separator {
+    padding: 0;
+    /* Remove padding for separator */
+}
+
+
+
+
+.sizechart__cover {
+    height: 100%;
+    width: auto;
+    /* background-color: rebeccapurple; */
+    margin: 1rem 0;
+    /* aspect-ratio: 1.1; */
+    overflow: hidden;
+}
+
+.sizechart__cover img {
+    height: auto;
+    width: 100%;
+    /* aspect-ratio: 1; */
+    object-fit: contain;
+}
+
+.farword_arrow {
+    width: 20px;
+    /* Adjust the width as needed */
+    height: 20px;
+    /* Adjust the height as needed */
+    transform: rotate(-90deg);
+}
+
+@media screen and (max-width:540px) {
+    /* .sizechart__unit {
+        display: flex;
+        align-items: flex-start;
+        margin: 10px 0;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: space-between;
+        align-items: center;
+
+    } */
+
+}

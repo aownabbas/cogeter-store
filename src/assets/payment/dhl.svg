@@ -1,0 +1,27 @@
+<svg id="DHL_Express_logo_rgb_black" xmlns="http://www.w3.org/2000/svg" width="87.152" height="12.529" viewBox="0 0 87.152 12.529">
+  <g id="Group_19197" data-name="Group 19197">
+    <g id="Group_19194" data-name="Group 19194" transform="translate(0 8.337)">
+      <g id="Group_19192" data-name="Group 19192">
+        <path id="Path_12757" data-name="Path 12757" d="M0,22.1H11.786l-.644.891H0V22.1Z" transform="translate(0 -20.448)"/>
+        <path id="Path_12758" data-name="Path 12758" d="M0,18.444H12.983l-.645.889H0v-.889Z" transform="translate(0 -18.444)"/>
+        <path id="Path_12759" data-name="Path 12759" d="M0,25.758H10.589l-.641.884H0v-.884Z" transform="translate(0 -22.452)"/>
+      </g>
+      <g id="Group_19193" data-name="Group 19193" transform="translate(74.219)">
+        <path id="Path_12760" data-name="Path 12760" d="M181.338,22.991H169.6l.643-.89h11.1v.89Z" transform="translate(-168.404 -20.448)"/>
+        <path id="Path_12761" data-name="Path 12761" d="M179.847,26.643H166.913l.641-.886h12.293v.884Z" transform="translate(-166.913 -22.452)"/>
+        <path id="Path_12762" data-name="Path 12762" d="M172.931,18.444h9.9v.89H172.287l.644-.891Z" transform="translate(-169.897 -18.444)"/>
+      </g>
+    </g>
+    <g id="Group_19195" data-name="Group 19195" transform="translate(11.415 4.803)">
+      <path id="Path_12763" data-name="Path 12763" d="M25.673,18.351l5.593-7.724h6.94c.767,0,.757.3.382.812s-1.029,1.426-1.416,1.958c-.2.27-.553.763.626.763h9.3a9.627,9.627,0,0,1-7.785,4.19H25.673Z" transform="translate(-25.673 -10.627)"/>
+      <path id="Path_12764" data-name="Path 12764" d="M83.926,18.443l-3.033,4.191h-8s3.031-4.19,3.034-4.19Z" transform="translate(-51.896 -14.91)"/>
+      <path id="Path_12765" data-name="Path 12765" d="M109.946,18.444l-3.034,4.19h-8s3.032-4.19,3.034-4.19Z" transform="translate(-66.347 -14.911)"/>
+      <path id="Path_12766" data-name="Path 12766" d="M128,18.444s-.584.812-.868,1.2c-1,1.38-.117,2.988,3.162,2.988H143.14l3.034-4.19H128Z" transform="translate(-81.801 -14.911)"/>
+    </g>
+    <g id="Group_19196" data-name="Group 19196" transform="translate(12.542)">
+      <path id="Path_12767" data-name="Path 12767" d="M30.991,0,28.206,3.846H43.382c.767,0,.757.3.382.812s-1.018,1.436-1.406,1.968c-.2.27-.553.762.626.762H49.19s1-1.384,1.839-2.54C52.17,3.274,51.128,0,47.05,0H30.991Z" transform="translate(-28.206)"/>
+      <path id="Path_12768" data-name="Path 12768" d="M100.83,7.388H81.262L86.613,0h8L91.544,4.236h3.57L98.182,0h8L100.83,7.388Z" transform="translate(-57.671)"/>
+      <path id="Path_12769" data-name="Path 12769" d="M144.942,0l-5.35,7.388h-8.475S136.469,0,136.472,0h8.47Z" transform="translate(-85.358)"/>
+    </g>
+  </g>
+</svg>

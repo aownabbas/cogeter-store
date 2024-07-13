@@ -1,0 +1,68 @@
+.no_data__found__container {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.no_data__found__container p {
+    font-weight: 600;
+    color: #000000;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.no_data__found__container span {
+    color: #000000;
+    text-align: center;
+    opacity: 0.4;
+}
+
+/* LoadingSpinner.css */
+.loading-spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left: 4px solid #AA41FA;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loadmore_button__container {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.loadmore_button {
+    background: transparent linear-gradient(270deg, #7089FB 0%, #AA41FA 100%) 0% 0% no-repeat padding-box;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.loadmore_button p {
+    margin: 0;
+    padding: 0;
+    font-size: 0.9rem;
+    color: #FFFFFF;
+}

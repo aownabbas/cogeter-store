@@ -1,0 +1,95 @@
+.customer-component {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.customer-subtitle {
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.customer-button-group a {
+    color: inherit;
+    text-decoration: none
+}
+
+.customer-h1,
+.customer-description {
+    margin-bottom: 20px;
+}
+
+.customer-button-group {
+    margin-top: 30px;
+}
+
+.customer-description {
+    font-size: 14px;
+}
+
+.customer-h1 {
+    font-size: 22px;
+}
+
+
+
+.customer-button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .customer-button-group {
+        flex-direction: row;
+        margin-top: 30px;
+    }
+
+    .customer-subtitle {
+        margin-top: 40px;
+        font-size: 16px;
+    }
+
+    .customer-component {
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
+
+.customer-button {
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    width: 100%;
+    /* Buttons will take full width on mobile */
+    box-sizing: border-box;
+    /* Button width includes padding */
+    background-color: transparent;
+}
+
+.customer-icon {
+    margin-right: 30px;
+    margin-left: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.customer-icon img {
+    width: 20px;
+    height: auto;
+}
+
+.customer-button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.customer_recaptcha {
+    margin: 15px 0;
+
+}

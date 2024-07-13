@@ -1,0 +1,78 @@
+.social_button__container_custom {
+    border: 1px solid #7089FB !important;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+.social_button__custom_icon img {
+    object-fit: contain;
+    width: 70%;
+}
+
+.social_button__custom_description p {
+    margin: 0 10px;
+    color: #000000 !important;
+    font-weight: 500;
+
+}
+
+.social_button__container {
+    border: 1px solid #7089FB !important;
+    height: 45px;
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+
+.social_button__facebook_container {
+    border: 0px solid !important;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.social_button__container span {
+    font-weight: 500;
+    color: #000000;
+    font-size: 14px;
+}
+
+.social_buttons__row_container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.social_buttons__row {
+    width: 100%;
+    height: 1px;
+    background-color: #707070;
+    opacity: 0.5;
+}
+
+.social_buttons__row_or {
+    margin: 0 10px;
+}
+
+.hidden__button {
+    display: none;
+}
+
+@media screen and (max-width:540px) {
+    .social_button__facebook_container {
+        width: 270px;
+    }
+}

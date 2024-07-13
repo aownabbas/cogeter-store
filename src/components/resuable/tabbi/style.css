@@ -1,0 +1,46 @@
+.tabby__container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    /* background-color: #F1F1F1; */
+    border-radius: 8px;
+    margin-top: 10px;
+    border: 1px solid rgb(143, 140, 140);
+    justify-content: space-between;
+}
+
+.tabby__container p {
+    color: #616161;
+    font-weight: 500;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.tabby__icon {
+    height: 30px;
+    width: auto;
+}
+
+
+
+.tabby__container img {
+    object-fit: contain;
+    shape-rendering: crispEdges;
+    image-rendering: pixelated;
+
+}
+
+.tabby__container b {
+    font-weight: bold;
+    color: black;
+}
+
+.tabby__learn_more {
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+}
+
+.tabby__learn_more:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,23 @@
+.out_of_stock__container {
+    /* background-color: #FF5226; */
+    background-color: rgba(255, 82, 38, 0.5);
+    /* Use RGBA color with 50% opacity */
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    opacity: 0.7;
+    margin: 10px 0;
+}
+
+.out_of_stock__container p {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    font: normal normal normal 14px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #FF5226;
+    opacity: 1;
+    font-weight: 500;
+}

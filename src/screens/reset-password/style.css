@@ -1,0 +1,11 @@
+.reset_password__container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reset_password__body {
+    width: 60%;
+    background-color: rebeccapurple;
+}

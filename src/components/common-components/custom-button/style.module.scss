@@ -1,0 +1,20 @@
+
+.oneBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent linear-gradient(270deg, #7089FB 0%, #AA41FA 100%) 0% 0% no-repeat padding-box;
+  border: none;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+
+  &:hover {
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: transparent linear-gradient(270deg, #7089FB 0%, #AA41FA 100%) 0% 0% no-repeat padding-box;
+    opacity: 0.8;
+  }
+}

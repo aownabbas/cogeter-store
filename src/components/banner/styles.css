@@ -1,0 +1,83 @@
+._banner_dev {
+    width: 100%;
+    /* aspect-ratio: 4.2/5.6; */
+    cursor: pointer;
+}
+
+img.desk-img {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+img.mob-img {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.mob-video {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    object-fit: cover;
+}
+
+/* Default styles for mobile screens */
+/* Default styles for mobile screens */
+.desk-img {
+    display: none;
+}
+
+.mob-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.mob-video {
+    display: none;
+    width: 100%;
+}
+
+.mob-video.visible {
+    display: block;
+}
+
+/* Media query for desktop screens */
+@media (min-width: 768px) {
+
+    /* Adjust this value based on where you define desktop vs mobile. 768px is common for tablets. */
+    .desk-img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    ._banner_dev {
+        /* aspect-ratio: 1500/580; */
+    }
+
+    .mob-img,
+    .mob-video,
+    .mob-video.visible {
+        display: none !important;
+        /* The !important ensures it overrides any other display properties */
+    }
+}

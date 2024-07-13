@@ -1,0 +1,166 @@
+.order__confirmation__container {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.order__confirmation__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-top: 20px;
+  width: 400px;
+}
+
+.order__confirmation__message {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.order__confirmation__message img {
+  object-fit: contain;
+}
+
+.order__confirmation__message p {
+  color: #000000;
+  font-weight: 500;
+  margin-top: -10px;
+}
+
+.order__confirmation__description {
+  padding: 20px !important;
+  border: 1px solid #b6acac;
+  border-radius: 1px;
+  text-align: center;
+  width: 95%;
+  justify-content: center;
+}
+
+@media screen and (max-width: 378px) {
+  .order__confirmation__description {
+    width: 85%; /* Adjust the width as needed for smaller screens */
+  }
+}
+
+@media screen and (max-width: 320px) {
+    .order__confirmation__description {
+      width: 65%; /* Adjust the width as needed for smaller screens */
+    }
+  }
+
+.order__confirmation__description span {
+  font-size: 16px;
+  color: #000000;
+  font-weight: 500;
+}
+
+.order__confirmation__description p {
+  font-size: 14px;
+  color: #707070;
+}
+
+.order__confirmation__buttons {
+  margin: 20px 0;
+  width: 95%;
+}
+
+@media screen and (max-width: 378px) {
+    .order__confirmation__buttons {
+      width: 85%; /* Adjust the width as needed for smaller screens */
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .order__confirmation__buttons {
+      width: 65%; /* Adjust the width as needed for smaller screens */
+    }
+  }
+
+.order__confirmation__button {
+  width: 100%;
+  padding: 15px 100px;
+  background: transparent linear-gradient(270deg, #7089fb 0%, #aa41fa 100%) 0% 0% no-repeat padding-box;
+  border-radius: 1px;
+  cursor: pointer;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.order__confirmation__button p {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.order__confirmation__view_button {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: underline;
+  color: #7089fb;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.animated__loader_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50vh;
+}
+
+.animated__loader {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  -moz-animation: pulse normal 2s infinite ease-in-out;
+  /* Firefox */
+  -webkit-animation: pulse normal 2s infinite ease-in-out;
+  /* Webkit */
+  -ms-animation: pulse normal 2s infinite ease-in-out;
+  /* IE */
+  animation: pulse normal 2s infinite ease-in-out;
+  /* Opera and prob css3 final iteration */
+  width: 30%;
+}
+
+.animated__loader_container img {
+  height: 100%;
+  object-fit: contain;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .order__confirmation__message img {
+    height: 60%;
+  }
+}

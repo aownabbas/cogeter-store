@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31" height="20" viewBox="0 0 31 20">
+  <defs>
+    <filter id="Image_8" x="-3" y="-3" width="37" height="26" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.141"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Image_8)">
+        <rect id="Image_8-2" data-name="Image 8" width="31" height="20" rx="4" transform="translate(1648 34)" fill="#fff"/>
+      </g>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_75" data-name="Mask Group 75" transform="translate(-1648 -34)" clip-path="url(#clip-path)">
+    <g id="united-arab-emirates-flag-icon" transform="translate(1648 34)">
+      <path id="Path_11781" data-name="Path 11781" d="M0,0H31V6.667H0Z" fill="#00732f"/>
+      <path id="Path_11782" data-name="Path 11782" d="M0,2H31V8.667H0Z" transform="translate(0 4.667)" fill="#fff"/>
+      <path id="Path_11783" data-name="Path 11783" d="M0,4H31v6.667H0Z" transform="translate(0 9.333)"/>
+      <path id="Path_11784" data-name="Path 11784" d="M0,0H7.75V20H0Z" fill="red"/>
+    </g>
+  </g>
+</svg>

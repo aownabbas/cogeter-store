@@ -1,0 +1,108 @@
+body {
+    overflow-x: hidden;
+    /* Prevent horizontal scrolling on the body */
+    max-width: 100vw;
+}
+
+.carousel-container {
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+    /* Establish a stacking context */
+}
+
+.carousel-content {
+    width: 100%;
+    /* Fit its parent's width */
+    overflow-x: auto;
+    white-space: nowrap;
+    position: relative;
+}
+
+.carousel-content img {
+    max-width: 100%;
+    /* Image will be contained within its container */
+    height: auto;
+}
+
+
+
+
+._fav_share_icons {
+    position: absolute;
+    top: 33px;
+    /* Adjust as per your design needs */
+    right: 21px;
+    z-index: 2;
+    /* Ensures the icons stay on top of the carousel content */
+    display: flex;
+    flex-direction: column;
+    /* This will stack the children (icons) vertically */
+    gap: 10px;
+    opacity: 0.7;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    /* object-fit: cover; */
+
+}
+
+/* product slider */
+
+
+.carousel .thumb {
+    transition: border .15s ease-in;
+    display: inline-block;
+    margin-right: 6px;
+    white-space: nowrap;
+    overflow: hidden;
+    border: 1px solid #fff;
+    padding: 2px;
+    height: 100px;
+}
+
+.carousel .thumb.selected {
+    border: 1px solid #333;
+}
+
+.carousel .thumb:hover {
+    border: none !important;
+}
+
+.carousel-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    left: 0;
+    padding: 0 16px;
+    top: 15%;
+    height: 50px;
+}
+
+.carousel-controls button {
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+    /* Remove default padding */
+}
+
+.carousel-controls button:active,
+.carousel-controls button:focus {
+    outline: none;
+    box-shadow: none;
+    /* For bootstrap if it's being used */
+}
+
+.carousel-icon {
+    height: 25px;
+}

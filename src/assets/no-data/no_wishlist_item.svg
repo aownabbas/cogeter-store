@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="129" height="142.025" viewBox="0 0 129 142.025">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Mask" d="M8.1,0h.854a0,0,0,0,1,0,0V.84a8.1,8.1,0,0,1-8.1,8.1H0a0,0,0,0,1,0,0V8.1A8.1,8.1,0,0,1,8.1,0Z" fill="#a8b7c5"/>
+    </clipPath>
+  </defs>
+  <g id="Artwork" transform="translate(-0.198 -0.989)">
+    <path id="Rectangle_27_Copy_2" data-name="Rectangle 27 Copy 2" d="M0,0,53.268,14.637V65.853L0,42.9Z" transform="translate(58.597 54.116)" fill="#8e99a3"/>
+    <path id="Rectangle_27_Copy_3" data-name="Rectangle 27 Copy 3" d="M-40.288,0-83.794,12.157V65.974L-40.288,42.68Z" transform="translate(98.946 54.166)" fill="#a0aab5"/>
+    <g id="fly" transform="translate(44.378 0.989)">
+      <path id="path" d="M42.3,95.429C30.278,91.91,9.166,92.224,1.237,71.657-6.03,52.808,20.776,34.667,28.276,42.61c5.314,5.628-1.5,13.744-10.95,12.833C6.687,54.416.4,44.9,2.5,34.667,6.657,14.367,38.65.936,40,0" transform="translate(0 19.882)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="6 7"/>
+      <g id="bee" transform="translate(29.97)">
+        <path id="Oval" d="M5.184,13.645s5.184-5.611,5.184-8.469A5.184,5.184,0,0,0,0,5.176C0,8.034,5.184,13.645,5.184,13.645Z" transform="translate(0 7.331) rotate(-45)" fill="#ced8e5" opacity="0.4"/>
+        <path id="Oval_Copy" data-name="Oval Copy" d="M5.184,13.645s5.184-5.611,5.184-8.469A5.184,5.184,0,0,0,0,5.176C0,8.034,5.184,13.645,5.184,13.645Z" transform="translate(30.176 22.353) rotate(135)" fill="#ced8e5" opacity="0.4"/>
+        <g id="Rectangle_4" data-name="Rectangle 4" transform="translate(10.832 9.887)">
+          <path id="Mask-2" data-name="Mask" d="M8.1,0h.854a0,0,0,0,1,0,0V.84a8.1,8.1,0,0,1-8.1,8.1H0a0,0,0,0,1,0,0V8.1A8.1,8.1,0,0,1,8.1,0Z" fill="#a8b7c5"/>
+          <g id="Rectangle_4-2" data-name="Rectangle 4" clip-path="url(#clip-path)">
+            <rect id="Rectangle_4-3" data-name="Rectangle 4" width="1.414" height="10.352" transform="translate(-1.568 2.486) rotate(-45)" fill="#dde5f2"/>
+            <path id="Rectangle_4_Copy" data-name="Rectangle 4 Copy" d="M0,1,1,0l7.32,7.32-1,1Z" transform="translate(1.26 -0.866)" fill="#dde5f2"/>
+          </g>
+        </g>
+        <path id="Path_7_Copy" data-name="Path 7 Copy" d="M0,1.268,3.439.449" transform="translate(24.594 6.379)" fill="none" stroke="#8696c5" stroke-width="0.9"/>
+        <path id="Path_7" data-name="Path 7" d="M0,3.4,1.323,0" transform="translate(23.18 2.831)" fill="none" stroke="#8696c5" stroke-width="0.9"/>
+        <ellipse id="Oval_4" data-name="Oval 4" cx="3.77" cy="3.764" rx="3.77" ry="3.764" transform="translate(17.429 5.182)" fill="#8b9aa8"/>
+      </g>
+    </g>
+    <path id="Rectangle_27" data-name="Rectangle 27" d="M0,0,53.268,16.9v59.69L0,53.645Z" transform="translate(15.152 66.42)" fill="#dae2ec"/>
+    <path id="Rectangle_27_Copy" data-name="Rectangle 27 Copy" d="M-41.18,0-85.649,14.637v59.69L-41.18,51.379Z" transform="translate(153.313 68.687)" fill="#c5d0d9"/>
+    <path id="Path_17_Copy" data-name="Path 17 Copy" d="M-74.028,0l17.191,23.006-45.621,17.979-15.756-26.426Z" transform="translate(186.035 68.651)" fill="#dae2ec"/>
+    <path id="Path_17" data-name="Path 17" d="M14.89,0,0,23.228,52.479,43.341,67.811,16.883Z" transform="translate(0.198 66.296)" fill="#c5d0d9"/>
+  </g>
+</svg>

@@ -1,0 +1,55 @@
+.product_single__item {
+    width: 100%;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.product_single__item___shimmer {
+    width: 50%;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.product_details_shimer__item {
+    width: 100%;
+    /* margin-right: 10px; */
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Add this to your CSS */
+.crossed-out {
+    position: relative;
+}
+
+.crossed-out::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #707070;
+    /* Choose your line color */
+    transform: rotate(-45deg);
+    transform-origin: top;
+}
+
+.crossed-out__line {
+    position: relative;
+    overflow: hidden;
+}
+
+.crossed-out__line::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #707070;
+    /* Choose your line color */
+    transform: rotate(-45deg);
+    transform-origin: top;
+}

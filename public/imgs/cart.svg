@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <g id="vuesax_linear_shopping-bag" data-name="vuesax/linear/shopping-bag" transform="translate(-686 -188)">
+    <g id="shopping-bag" transform="translate(686 188)">
+      <path id="Vector" d="M5.33,0h7.8c3.683,0,4.052,1.722,4.3,3.824l.975,8.125c.314,2.665-.509,4.843-4.3,4.843H4.365c-3.8,0-4.626-2.178-4.3-4.843L1.04,3.824C1.278,1.722,1.646,0,5.33,0Z" transform="translate(3.771 7.042)" fill="none" stroke="#292d32" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-2" data-name="Vector" d="M0,6.5V2.708A2.559,2.559,0,0,1,2.708,0h3.25A2.559,2.559,0,0,1,8.667,2.708V6.5" transform="translate(8.667 2.167)" fill="none" stroke="#292d32" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-3" data-name="Vector" d="M0,0H26V26H0Z" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

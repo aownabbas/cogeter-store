@@ -1,0 +1,649 @@
+.product_sub__items {
+  /* height: 28rem; */
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.blur-content {
+  filter: blur(30px);
+}
+
+.product_sub__item {
+  background-color: aliceblue;
+  width: 100%;
+  height: auto;
+}
+
+.product_sub__item img {
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+  margin-top: 10px;
+}
+
+.product_sub__item video {
+  max-width: 100%;
+  /* Limit the video width to the container's width */
+  height: auto;
+}
+
+.header__devider {
+  margin-right: 1rem;
+  color: rgb(136, 133, 138);
+  padding: 0;
+}
+
+@media screen and (max-width: 540px) {
+  .header__devider {
+    margin-right: 2px;
+    margin-left: 2px;
+  }
+}
+
+.header_countrylist__container {
+  position: absolute;
+  height: 15rem;
+  width: 15rem;
+  background-color: #ffffff;
+  top: 55px;
+  border-radius: 5px;
+  padding: 0;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+  overflow: scroll;
+}
+
+.header_countrylist__search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #b6b6b6;
+  padding: 5px 0;
+}
+
+.header_countrylist__search input {
+  width: 90%;
+  height: 30px;
+  font-size: 12px;
+  border: none;
+}
+
+.header_countrylist__items {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  align-items: center;
+  padding-left: 10px;
+  margin: 5px 0;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.header_countrylist__items p {
+  margin: 0;
+  padding: 0;
+  font-size: 11px;
+  width: 100%;
+}
+
+.header_countrylist__items span {
+  margin: 0 5px;
+  padding: 0;
+  font-size: 11px;
+}
+
+.header_countrylist__items_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  overflow: hidden;
+  width: 15%;
+}
+
+.header_countrylist__items_icon img {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+
+.header_countrylist__items_title {
+  width: 85%;
+}
+
+.header_countrylist__items_icon img {
+  width: 25px !important;
+  height: 25px !important;
+  border-radius: 50% !important;
+}
+
+/* Add this CSS in your stylesheet or inline style */
+.custom-input {
+  border: none;
+  border-bottom: 1px solid #ced4da;
+  /* Initial bottom border */
+  border-radius: 0;
+  padding: 10px 0;
+  margin: 5px 0;
+  /* Add padding to the bottom and left sides */
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+  /* Include padding in the width calculation */
+}
+
+.form-control:disabled {
+  background-color: transparent;
+  opacity: 1;
+  color: #b6b6b6;
+}
+
+.custom-input:focus {
+  border: none;
+  border-bottom: 2px solid #007bff;
+  /* Highlighted bottom border on focus */
+  box-shadow: none;
+  outline: none;
+}
+
+.custom-input::placeholder {
+  color: #888888;
+  /* Set placeholder color to #888888 */
+}
+
+/* Add this CSS in your stylesheet or inline style */
+.custom-input,
+.custom-select {
+  border: none;
+  border-bottom: 0.5px solid #ced4da;
+  /* Initial bottom border */
+  border-radius: 0;
+  padding: 10px 0;
+  margin: 5px 0;
+  /* Add padding to the bottom and left sides */
+  width: 100%;
+  box-sizing: border-box;
+  /* Include padding in the width calculation */
+  font-size: 16px;
+  /* Set font size to 16px */
+}
+
+.custom-input-error {
+  border: none;
+  border-bottom: 0.5px solid #FF0000;
+  /* Initial bottom border */
+  border-radius: 0;
+  padding: 10px 0;
+  margin: 5px 0;
+  /* Add padding to the bottom and left sides */
+  width: 100%;
+  box-sizing: border-box;
+  /* Include padding in the width calculation */
+  font-size: 16px;
+  /* Set font size to 16px */
+}
+
+.custom-input:focus,
+.custom-select:focus {
+  border: none;
+  border-bottom: 2px solid #007bff;
+  /* Highlighted bottom border on focus */
+  box-shadow: none;
+  outline: none;
+}
+
+.custom-input::placeholder,
+.custom-select::placeholder {
+  color: #888888;
+  /* Set placeholder color to #888888 */
+}
+
+.checkout__create__Account {
+  padding: 10px 0;
+  margin: 0;
+  font-size: 18px;
+  color: #000000;
+  font-weight: 400;
+}
+
+.checkout__signin {
+  padding: 10px 0;
+  margin: 0;
+  font-size: 14px;
+  color: #7089fb;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.shipping-policy {
+  margin: 20px 0;
+  /* Add margin as needed */
+}
+
+.blue-bold {
+  color: #7089fb;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.no-border-radius {
+  border-radius: 0;
+  /* Remove border radius */
+}
+
+.checkout__card {
+  margin: 10px 0;
+}
+
+.checkout__card p {
+  font-size: 15px;
+  color: #000000;
+  font-weight: 500;
+}
+
+.checkout__card span {
+  font-size: 12px;
+  color: #000000;
+  font-weight: 500;
+  opacity: 0.4;
+  margin: 0;
+  padding-top: -10px;
+}
+
+/* Add this CSS in your stylesheet or inline style */
+
+.card_expand {
+  border: 1px solid rgba(0, 0, 0, 0.176);
+  border-radius: 0;
+  overflow: hidden;
+  transition: height 0.3s ease-in-out;
+}
+
+.card-title {
+  font-size: 18px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.card_expand.expanded {
+  height: auto;
+  /* Adjust the expanded height as needed */
+}
+
+/* Add this CSS in your stylesheet or inline style */
+.customer_card_expand {
+  /* border: 1px solid rgba(0, 0, 0, 0.176); */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.176);
+  border-radius: 0;
+  overflow: hidden;
+  transition: height 0.3s ease-in-out;
+  /* height: 50px; */
+}
+
+.customer_card__expand_dropwn_body {
+  padding: 0 0 10px 0;
+  max-height: 10rem;
+  overflow-y: scroll;
+  background-color: #ffffff;
+  border: 1px solid #b6b6b6;
+}
+
+.customer_card-header_dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 0;
+  cursor: pointer;
+}
+
+.customer_card-header_dropdown p {
+  font-size: 16px;
+  padding: 0 0;
+  color: #212529;
+}
+
+.customer_card-header_dropdown span {
+  font-size: 16px;
+  padding: 0 0;
+  color: #888888;
+}
+
+.card-title {
+  font-size: 18px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.customer_card_expand.expanded {
+  height: auto;
+  /* Adjust the expanded height as needed */
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.card-header_dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.card-header_dropdown span {
+  font-size: 16px;
+  padding: 0 5px;
+}
+
+.shipping_subtitle {
+  font-size: 12px !important;
+  color: #888888 !important;
+  padding-right: 10px;
+}
+
+.arrow-icon {
+  width: 20px;
+  /* Adjust the icon width as needed */
+
+  transition: transform 0.3s ease-in-out;
+}
+
+.arrow-icon.expanded {
+  transform: rotate(90deg);
+}
+
+.card__expand_body {
+  padding: 0 20px 0 20px;
+}
+
+.card__expand_dropwn_body {
+  padding: 0 0 10px 0;
+  max-height: 10rem;
+  overflow-y: scroll;
+}
+
+.card__expand_addnew_address {
+  font-size: 14px;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.addres_dropdown_items {
+  margin: 5px 0;
+  padding: 10px 20px;
+}
+
+.addres_dropdown_items:hover {
+  background-color: #888888;
+  opacity: 0.7;
+}
+
+.addres_dropdown_item {
+  font-size: 14px;
+  color: #000000;
+}
+
+.checkout_summary__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ced4da;
+  /* Add bottom border */
+  padding: 10px 0;
+  margin: 10px 0;
+  width: 100%;
+  /* Add padding as needed */
+}
+
+.checkout_summary__item_total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border-bottom: 1px solid #ced4da; */
+  /* Add bottom border */
+  padding: 10px 20px;
+  /* margin: 10px 0; */
+  width: 100%;
+  /* Add padding as needed */
+}
+
+.checkout_summary__item span {
+  font-size: 16px;
+  color: #060606;
+  font-weight: 500;
+  /* flex: 1; */
+  /* Distribute the space evenly between spans */
+}
+
+.checkout__total {
+  color: #aa41fa !important;
+  font-size: 18px !important;
+  font-weight: 800 !important;
+}
+
+.checkout__total_amount {
+  color: #7089fb !important;
+  font-size: 18px !important;
+  font-weight: 800 !important;
+}
+
+.checkout_confirm__button {
+  height: 50px;
+  /* background-color: #888888; */
+  background: transparent linear-gradient(270deg, #7089fb 0%, #aa41fa 100%) 0% 0% no-repeat padding-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 0px 20px 20px;
+}
+
+.checkout_confirm__button p {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.checkout_confirm__button_disabled {
+  height: 50px;
+  background-color: #888888;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkout_confirm__button_disabled p {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+/* address modal css */
+.address_modal__container {
+  margin: 20px 20px;
+}
+
+.address_modal__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+.address_modal__container span {
+  font-size: 15px;
+  /* color: #888888; */
+  margin-top: 10px;
+  color: #000000;
+}
+
+.address_modal__dropdwon_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  border-bottom: 1px solid #efc7c7;
+}
+
+.address_modal__dropdwon_error_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  border-bottom: 1px solid red;
+}
+
+.address_modal__dropdwon_container img {
+  margin-left: 5px;
+}
+
+.dropdown-content {
+  max-height: 0;
+  overflow: hidden;
+  width: 100%;
+  /* transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out; */
+  /* Add transition for smooth effect */
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+}
+
+.expand {
+  max-height: 400px;
+  /* Set a maximum height to allow smooth transition */
+  overflow: auto;
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  background-color: white;
+}
+
+.address_modal__dropdwon_container.expanded .arrow-icon {
+  transform: rotate(180deg);
+}
+
+.arrow-icon {
+  margin-left: 5px;
+  transition: transform 0.3s ease-in-out;
+  /* Add transition for smooth rotation */
+}
+
+.country-option {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.country-option:hover {
+  background-color: #f0f0f0;
+}
+
+._borderdButton {
+  height: 45px;
+  width: 100%;
+  border: 1px solid #778ffb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #778ffb;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+._productDetailsItemContainer .accordion-item:first-of-type .accordion-button {
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 540px) {
+  .cart__stikcy {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    left: 0;
+    box-shadow: 0px -1px 10px rgba(114, 112, 112, 0.2);
+    border: none;
+  }
+
+  .isSticky {
+    margin-bottom: 70vh;
+  }
+}
+
+.input-container {
+  position: relative;
+}
+
+.input-icon {
+  position: absolute;
+  right: 10px;
+  top: 48%;
+  transform: translateY(-50%);
+}
+
+input {
+  padding-left: 30px;
+  /* Adjust this value based on your icon width */
+}
+
+.stories_video {
+  width: 100% !important;
+}
+
+.story_video {
+  height: 181px;
+  width: 100%;
+  /* border: 0.5px solid #e7eaec; */
+  /* border-radius: 5px; */
+  /* padding: 5px; */
+  opacity: 1;
+  object-fit: cover;
+}
+
+.stories_horizontal_scroll {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  width: 100%;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.stories_horizontal_scroll::-webkit-scrollbar {
+  width: 0.5rem;
+  /* Adjust the width as needed */
+}
+
+.stories_horizontal_scroll::-webkit-scrollbar-track {
+  background: transparent;
+  /* Set the track to a transparent color */
+}
+
+.stories_horizontal_scroll::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  /* Set the thumb to a transparent color */
+}
+
+.story_title {
+  /* height: 13%; */
+  font-weight: 400;
+  font-size: 14px;
+  width: 100%;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.text-danger span{
+  font-size: 12px;
+  color: red;
+}

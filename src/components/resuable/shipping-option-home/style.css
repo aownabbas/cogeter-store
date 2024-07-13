@@ -1,0 +1,88 @@
+.home_shipping_snipts__container {
+    padding: 10px 10px;
+    background-color: #E7E6EC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home_shipping_snipts__items {
+    display: flex;
+    align-items: center;
+}
+
+.home_shipping_snipts__items img {
+    height: 25px;
+    object-fit: contain;
+    opacity: 0.8;
+    margin-right: 5px;
+}
+
+.home_shipping_snipts__dhl {
+    width: 60px !important;
+    object-fit: contain;
+    opacity: 1 !important;
+}
+
+.home_shipping_snipts__items p {
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+    color: #515461;
+}
+
+@media screen and (max-width:540px) {
+    .home_shipping_snipts__container {
+        margin: 10px 0;
+        padding: 15px 6px;
+        margin-top: 20px;
+    }
+
+    .home_shipping_snipts__items {
+        flex-direction: column;
+    }
+
+    .home_shipping_snipts__items img {
+        height: 20px;
+        object-fit: contain;
+        opacity: 0.8;
+        margin-right: 5px;
+    }
+
+    .home_shipping_snipts__items p {
+        text-align: center;
+        color: #515461;
+        margin-top: 5px;
+    }
+
+}
+
+@media screen and (min-width:540px) and (max-width:992px) {
+    ._cartModal {
+        width: 60%;
+    }
+
+    #registrationModal {
+        width: 50%;
+    }
+
+    #aboutUs,
+    #profile,
+    #myPurchases,
+    #MyPersonalDetail {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto auto;
+    }
+
+    #filterModal {
+        width: 50%;
+    }
+
+    .payment_method__icons img {
+        height: 20px;
+    }
+
+
+}

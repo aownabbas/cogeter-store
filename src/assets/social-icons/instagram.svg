@@ -1,0 +1,11 @@
+<svg id="vuesax_outline_facebook" data-name="vuesax/outline/facebook" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="facebook">
+    <path id="Vector" d="M0,0H24V24H0Z" fill="none"/>
+    <path id="Vector-2" data-name="Vector" d="M0,0H24V24H0Z" fill="none" opacity="0"/>
+    <g id="noun-instagram-6000262" transform="translate(-2.75 -2.75)">
+      <path id="Path_12699" data-name="Path 12699" d="M15.271,9a6.271,6.271,0,1,0,6.271,6.271A6.278,6.278,0,0,0,15.271,9Zm0,10.75a4.479,4.479,0,1,1,4.479-4.479A4.481,4.481,0,0,1,15.271,19.75Z" transform="translate(-0.521 -0.521)" fill="#787878"/>
+      <circle id="Ellipse_23" data-name="Ellipse 23" cx="0.896" cy="0.896" r="0.896" transform="translate(20.125 7.583)" fill="#787878"/>
+      <path id="Vector-3" data-name="Vector" d="M13.75,21.5h-6C2.32,21.5,0,19.18,0,13.75v-6C0,2.32,2.32,0,7.75,0h6c5.43,0,7.75,2.32,7.75,7.75v6C21.5,19.18,19.18,21.5,13.75,21.5Zm-6-20C3.14,1.5,1.5,3.14,1.5,7.75v6C1.5,18.36,3.14,20,7.75,20h6C18.36,20,20,18.36,20,13.75v-6c0-4.61-1.64-6.25-6.25-6.25Z" transform="translate(4 4)" fill="#787878"/>
+    </g>
+  </g>
+</svg>

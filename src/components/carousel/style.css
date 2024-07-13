@@ -1,0 +1,142 @@
+button.slick-prev {
+  left: 0px !important;
+  z-index: 1;
+}
+
+button.slick-arrow {
+  position: absolute;
+  content: '';
+  width: 40px;
+  height: 40px;
+}
+
+button.slick-next {
+  right: 0px !important;
+  z-index: 1;
+}
+
+.slider__video {
+  height: 100px;
+  margin-right: 20px;
+}
+
+.slider__video video {
+  height: 100%;
+  width: 76px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 320px) {
+  .slider__video video {
+    height: 100%;
+    width: 76px;
+    margin: 0px 10px 0px 10px;
+  }
+}
+
+.slick__thumnail {
+  width: 100px;
+}
+
+.slick__thumnail img {
+  height: 100%;
+  object-fit: cover;
+  width: 76px;
+}
+
+.slick__thumnail:last-child {
+  margin-right: 0;
+}
+
+.slick__slider__container {
+  margin-bottom: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.slick__left_Arrow {
+  display: flex;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  z-index: 9px;
+  top: 45%;
+  right: 0;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+.slick__right_Arrow {
+  display: block;
+  /* background: green; */
+  height: 50px;
+  width: 50px;
+  z-index: 3;
+  position: absolute;
+  top: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+}
+
+.gallery_close_icon {
+  display: flex;
+  height: 50px;
+  width: 50px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+.slick__Arrow_icon {
+  /* height: 25px; */
+  width: 15px;
+  object-fit: contain;
+}
+
+.slick__left_bottom_slide_Arrow {
+  display: flex;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  z-index: 9px;
+  top: 25%;
+  right: -20px;
+  align-items: center;
+  justify-content: flex-end;
+  padding-left: 10px;
+}
+
+.slick__right_bottom_slide_Arrow {
+  display: flex;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  z-index: 9px;
+  top: 25%;
+  left: -20px;
+  align-items: center;
+  justify-content: flex-start;
+  /* padding-left: 10px; */
+}
+
+.slick__bottom_Arrow_icon {
+  /* height: 20px; */
+  width: 10px;
+  object-fit: contain;
+}
+
+.slick-slider .slick-slide.slick-current.slick-active .slick__thumnail img,
+.slick-slider .slick-slide.slick-current.slick-active .slider__video video {
+  border: 1px solid #000;
+  border-radius: 2px;
+  /* Your desired border styles here */
+}
+
+.slick-slider .slick-slide.slick-current .slider__top_video video {
+  height: 100%;
+  border: none !important;
+  /* aspect-ratio: 0.7; */
+}

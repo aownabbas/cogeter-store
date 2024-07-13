@@ -1,0 +1,46 @@
+/* Modal overlay style */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    margin: 0;
+    padding: 0;
+}
+
+/* Modal content style */
+.modal-content {
+    background-color: black;
+    position: relative;
+    /* Position relative to allow children to fill its space */
+    width: 100%;
+    /* Full width */
+    height: 100vh;
+    /* Full height */
+    /* padding: 20px; */
+    border-radius: 0;
+    /* No border-radius for full width and height */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
+}
+
+.modal-content_closed {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    z-index: 99;
+}
+
+/* Disable scrolling on both the body and html elements when the modal is open */
+@media (max-width: 767px) {
+    .disable-scroll {
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+    }
+}

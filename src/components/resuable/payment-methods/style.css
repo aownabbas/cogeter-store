@@ -1,0 +1,96 @@
+.payment_method__container {
+    margin: 25px 0;
+}
+
+.payment_method {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.payment_method__icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.payment_method__icons img {
+    height: 25px;
+}
+
+.payment_method p {
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    color: #515461;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.payment_method img {
+    object-fit: contain;
+}
+
+.shipping__container {
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+
+}
+
+.shipping__container_title {
+    display: flex;
+    align-items: center;
+}
+
+.shipping__container_title p {
+    color: #515461;
+    font-size: 12px;
+    margin-left: 10px;
+    padding: 0;
+}
+
+.shipping__option_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.shipping__option_item_icon {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shipping__option_item_icon img {
+    opacity: 0.9;
+    object-fit: contain;
+}
+
+.shipping__option_item p {
+    color: #515461;
+    font-size: 10px;
+
+}
+
+.hrow {
+    height: 0.5px;
+    background-color: #515461;
+    margin: 20px 0;
+    opacity: 0.2;
+}
+
+.cart__row {
+    height: 0.5px;
+    background-color: #515461;
+    margin: 5px 0;
+    opacity: 0.2;
+}

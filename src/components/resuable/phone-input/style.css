@@ -1,0 +1,105 @@
+/* PhoneNumberInput.css */
+
+/* Style for the container */
+.phone-input-container {
+    border-bottom: 1px solid #ccc;
+    padding: 7px 0;
+    position: relative;
+}
+
+.phone-input-container-error {
+    border-bottom: 1px solid red;
+    padding: 7px 0;
+    position: relative;
+}
+
+/* Style for the phone input */
+.phone-input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+/* Style for the code */
+.code {
+    cursor: pointer;
+    /* text-decoration: underline; */
+}
+
+/* Style for the dropdown */
+.dropdown {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+    /* Increase the z-index */
+    width: 100%;
+    max-width: 100%;
+    top: 100%;
+    /* Position below the field */
+    left: 0;
+    max-height: 40vh;
+    overflow: scroll;
+    /* Align with the left edge of the input */
+}
+
+/* Style for dropdown items */
+.dropdown-item {
+    padding: 5px;
+    cursor: pointer;
+    color: #000000;
+    opacity: 0.8;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.dropdown-item:hover {
+    background-color: #ccc;
+}
+
+/* Style for the phone number input */
+.phone-number-input {
+    border: none;
+    /* Remove the border */
+    /* border-bottom: 1px solid #ccc; */
+    /* Add bottom border */
+    width: 100%;
+    outline: none;
+}
+
+.error-message {
+    color: #ff0000;
+    /* Red color for error messages */
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
+input {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    appearance: none;
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+
+input:focus {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: none;
+    /* padding-top: 1.8em; */
+    outline: none;
+    box-shadow: none;
+}

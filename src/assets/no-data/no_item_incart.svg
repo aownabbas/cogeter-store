@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="203.52" height="190.532" viewBox="0 0 203.52 190.532">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="0.5" x2="0" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7089fb"/>
+      <stop offset="1" stop-color="#aa41fa"/>
+    </linearGradient>
+  </defs>
+  <g id="Artwork" transform="translate(51.122 2.5)">
+    <g id="bag">
+      <g id="Group_7" data-name="Group 7" transform="translate(0 7.502)">
+        <rect id="Rectangle_19_Copy_2" data-name="Rectangle 19 Copy 2" width="77.52" height="15.004" transform="translate(11.878 102.526)" fill="#1b3554"/>
+        <rect id="Rectangle_19_Copy" data-name="Rectangle 19 Copy" width="77.52" height="49.388" transform="translate(12.503)" fill="#e0e5ec"/>
+        <path id="Rectangle_3" data-name="Rectangle 3" d="M12.5,0V75.019H0V29.655l6.253-9.6Z" fill="#cfd4dc"/>
+        <path id="Rectangle_3_Copy_3" data-name="Rectangle 3 Copy 3" d="M-20,0V75.019H-7.5V29.655l-6.253-9.6Z" transform="translate(109.398)" fill="#cfd4dc"/>
+        <path id="Rectangle_19" data-name="Rectangle 19" d="M0,0H101.9a0,0,0,0,1,0,0V83.148a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V0A0,0,0,0,1,0,0Z" transform="translate(0 29.383)" fill="#fff"/>
+      </g>
+      <g id="Group_2" data-name="Group 2" transform="translate(30.633 69.393)">
+        <path id="Rectangle_3_Copy" data-name="Rectangle 3 Copy" d="M0,3.03A2.075,2.075,0,0,1,1.443,1.053L4.737,0l3.2,1.045A2.088,2.088,0,0,1,9.377,3.03h0A1.1,1.1,0,0,1,7.937,4.077L4.714,3.03,1.442,4.081A1.1,1.1,0,0,1,0,3.03Z" transform="translate(0 0)" fill="#1b3554" opacity="0.5"/>
+        <path id="Rectangle_3_Copy_2" data-name="Rectangle 3 Copy 2" d="M0,3.03A2.075,2.075,0,0,1,1.443,1.053L4.737,0l3.2,1.045A2.088,2.088,0,0,1,9.377,3.03h0A1.1,1.1,0,0,1,7.937,4.077L4.714,3.03,1.442,4.081A1.1,1.1,0,0,1,0,3.03Z" transform="translate(31.883 0)" fill="#1b3554" opacity="0.5"/>
+        <path id="Oval_10" data-name="Oval 10" d="M10,8.756c5.524,0,10-3.228,10-8.752C10-.029,7.851.164,0,0,0,5.528,4.478,8.756,10,8.756Z" transform="translate(10.628 10.628)" fill="#1b3554" opacity="0.5"/>
+      </g>
+      <circle id="Oval" cx="3.751" cy="3.751" r="3.751" transform="translate(24.381 42.511)" fill="#1b3554" opacity="0.149"/>
+      <circle id="Oval_Copy" data-name="Oval Copy" cx="3.751" cy="3.751" r="3.751" transform="translate(70.018 42.511)" fill="#1b3554" opacity="0.149"/>
+      <path id="Oval_15" data-name="Oval 15" d="M0,46.07V22.818a22.818,22.818,0,1,1,45.637,0V46.07" transform="translate(28.132)" fill="none" stroke="#5e7085" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    </g>
+    <g id="indicator" transform="translate(90.648 96.9)">
+      <circle id="Oval_2" data-name="Oval 2" cx="11.003" cy="11.003" r="11.003" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+      <text id="_0" data-name="0" transform="translate(11.178 14.707)" fill="#fff" font-size="11" font-family="Montserrat-SemiBold, Montserrat" font-weight="600" letter-spacing="-0.01em"><tspan x="-3" y="0">0</tspan></text>
+    </g>
+  </g>
+</svg>

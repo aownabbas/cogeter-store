@@ -1,0 +1,42 @@
+.address_shimer__container {
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+    margin: 10px 0;
+
+}
+
+.cart_shimer__container {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.cart_shimer__body {
+    height: 100%;
+    width: 92%;
+    display: flex;
+    gap: 10px;
+}
+
+.cart_shimer__cover {
+    width: 25%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.cart_shimer__detail {
+    width: 83%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.cart_shimer__item {
+    height: 10%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}

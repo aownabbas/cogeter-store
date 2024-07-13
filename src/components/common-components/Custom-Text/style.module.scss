@@ -1,0 +1,44 @@
+
+p {
+    margin: 0;
+
+}
+
+.oneText {
+    font-size: 14px;
+    color: #888888;
+    font-weight: 400;
+}
+
+.twoText {
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+}
+
+.threeText {
+    color: #888888;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.fourText {
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.fiveText {
+    color: #FF5226 !important;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+@media screen and (max-width:540px) {
+.oneText {
+        font-size: 13px;
+        color: #888888;
+        font-weight: 400;
+    }
+   
+}

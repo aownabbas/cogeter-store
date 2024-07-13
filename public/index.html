@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Cogeter" />
+
+  <title>COGETER</title>
+
+  <!-- Favicons -->
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+
+  <!-- Stylesheets -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" charset="UTF-8"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- OG Tags -->
+  <meta property="og:site_name" content="COGETER" />
+  <meta property="og:url" content="" id="meta-og-url" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="COGETER" />
+  <meta property="og:description"
+    content="Explore the Latest Trends and Elevate Your Style with our Exquisite Collection" />
+  <meta property="og:image" content="%PUBLIC_URL%/imgs/meidaLogo.png" />
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="twitter:domain" content="" id="meta-twitter-domain" />
+  <meta property="twitter:url" content="" id="meta-twitter-url" />
+  <meta name="twitter:title" content="COGETER" />
+  <meta name="twitter:description"
+    content="Explore the Latest Trends and Elevate Your Style with our Exquisite Collection" />
+  <meta name="twitter:image" content="%PUBLIC_URL%/imgs/meidaLogo.png" />
+
+
+
+
+  <script>
+    function setMetaTags() {
+      const websiteUrl = "%REACT_APP_WEBSITE_URL%";
+      document
+        .querySelector("#meta-og-url")
+        .setAttribute("content", websiteUrl);
+      document
+        .querySelector("#meta-twitter-domain")
+        .setAttribute("content", websiteUrl);
+      document
+        .querySelector("#meta-twitter-url")
+        .setAttribute("content", websiteUrl);
+    }
+    document.addEventListener("DOMContentLoaded", setMetaTags);
+  </script>
+
+  <!-- %GTM_HEAD_CODE% -->
+  <!-- %TTM_HEAD_CODE% -->
+  <script src="https://checkout.tabby.ai/tabby-promo.js"></script>
+  <script>
+    new TabbyPromo({});
+  </script>
+</head>
+
+<body>
+  <!-- %GTM_BODY_CODE% -->
+  <!-- %TTM_BODY_CODE% -->
+  <div id="root"></div>
+</body>
+
+</html>

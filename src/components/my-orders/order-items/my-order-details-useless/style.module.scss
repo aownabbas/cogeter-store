@@ -1,0 +1,12 @@
+.orderDetailsContiner {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 7em auto;
+
+
+  .cardBorder {
+    border: none;
+    border-radius: 0px;
+  }
+}

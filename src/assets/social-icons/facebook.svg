@@ -1,0 +1,8 @@
+<svg id="vuesax_outline_facebook" data-name="vuesax/outline/facebook" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="facebook">
+    <path id="Vector" d="M0,0H24V24H0Z" fill="none"/>
+    <path id="Vector-2" data-name="Vector" d="M6.5,17.5H2V10.25H1.05A1.05,1.05,0,0,1,0,9.2V7.3A1.05,1.05,0,0,1,1.05,6.25H2V3.75A3.751,3.751,0,0,1,5.75,0h2.7A1.05,1.05,0,0,1,9.5,1.05v2.4A1.05,1.05,0,0,1,8.45,4.5H6.5V6.25H8.38A1.047,1.047,0,0,1,9.41,7.5L9.03,9.4A1.05,1.05,0,0,1,8,10.24H6.5V17.5ZM3.5,16H5V8.75H7.64l.2-1H5.01V4.05A1.05,1.05,0,0,1,6.06,3H8.01V1.5H5.75A2.253,2.253,0,0,0,3.5,3.75v4h-2v1h2Z" transform="translate(8.25 5.25)" fill="#787878"/>
+    <path id="Vector-3" data-name="Vector" d="M13.75,21.5h-6C2.32,21.5,0,19.18,0,13.75v-6C0,2.32,2.32,0,7.75,0h6c5.43,0,7.75,2.32,7.75,7.75v6C21.5,19.18,19.18,21.5,13.75,21.5Zm-6-20C3.14,1.5,1.5,3.14,1.5,7.75v6C1.5,18.36,3.14,20,7.75,20h6C18.36,20,20,18.36,20,13.75v-6c0-4.61-1.64-6.25-6.25-6.25Z" transform="translate(1.25 1.25)" fill="#787878"/>
+    <path id="Vector-4" data-name="Vector" d="M0,0H24V24H0Z" fill="none" opacity="0"/>
+  </g>
+</svg>

@@ -1,0 +1,168 @@
+.mainPageContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 90px;
+
+  .headerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      height: 20px;
+      object-fit: contain;
+      cursor: pointer;
+    }
+  }
+
+  .sameDayShippingBox {
+    justify-content: space-between;
+    align-items: flex-start !important;
+
+    .aedRateBox {
+      width: 75px;
+    }
+  }
+
+  .headerStatus {
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+
+    div {
+      display: inline;
+    }
+
+    p {
+      display: inline;
+    }
+
+    .trakingNumberContainer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+
+      img {
+        height: 20px;
+        cursor: pointer;
+        object-fit: contain;
+      }
+    }
+
+
+    .dotCircle {
+      border: 2px solid #888888;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+    }
+  }
+
+
+  .summaryHeader {
+    margin-bottom: 60px;
+  }
+
+  .paymentMethodContainer {
+    .paymentAlert {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+      margin-top: 8px;
+
+      img {
+        width: 25px;
+        height: 25px;
+      }
+    }
+  }
+}
+
+.itemContainer {
+  img {
+    margin-right: 0px !important;
+    height: 140px !important;
+    width: 140px !important;
+  }
+
+  .itemRight {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .variantSize {
+      display: inline;
+      border: 1px solid #e6e1e1;
+      padding: 5px 10px;
+    }
+
+    .quantity {
+      border: 1px solid #e6e1e1;
+      width: 60px;
+      padding: 2px;
+      text-align: center;
+    }
+  }
+}
+
+.retryCardPayment {
+  cursor: pointer;
+}
+
+.collapseContainer {
+  padding: 24px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  background-color: white;
+  /* Adjust as needed */
+  border-top: 1px solid #dee2e6;
+  /* Add a separator line */
+
+  .collapsedHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    h2 {
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    .arrrowImage {
+      transform: rotate(180deg);
+    }
+  }
+
+  .stickyBottom {
+    max-height: 50vh;
+    /* Adjust the maximum height as needed */
+    overflow-y: auto;
+    /* Enable vertical scrolling if content exceeds max height */
+  }
+}
+
+.desktopView {
+  display: none;
+}
+
+
+@media (min-width: 768px) {
+
+  .mobileView {
+    display: none;
+  }
+
+  .desktopView {
+    display: block;
+  }
+}

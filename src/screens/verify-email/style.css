@@ -1,0 +1,33 @@
+.verifyEmail__container {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.verifyEmail__confirmation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.verifyEmail__confirmation p {
+    margin: 20px 0;
+}
+
+._confirm__button {
+    height: 50px;
+    /* background-color: #888888; */
+    background: transparent linear-gradient(270deg, #7089FB 0%, #AA41FA 100%) 0% 0% no-repeat padding-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0px 20px 20px;
+    width: 300px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+}

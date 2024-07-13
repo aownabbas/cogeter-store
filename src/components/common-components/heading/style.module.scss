@@ -1,0 +1,34 @@
+h2 {
+  margin: 0;
+}
+
+.oneHeading {
+  font-size: 20px;
+  color: #000000;
+  text-align: left;
+  font-weight: 600; //Semi Bold / Demi Bold
+  margin: 10px 0px;
+}
+
+.twoHeading {
+  font-weight: 600; //Semi Bold / Demi Bold
+  color: #000000;
+  font-size: 16px !important;
+  margin: 5px 0px;
+}
+
+.threeSmallHeading {
+  font-weight: 700; // Bold / Demi Bold
+  color: #AA41FA;
+  font-size: 22px;
+  margin: 10px 0px;
+
+
+}
+
+@media screen and (max-width:540px) {
+  .oneHeading {
+    font-size: 14px;
+
+  }
+}
